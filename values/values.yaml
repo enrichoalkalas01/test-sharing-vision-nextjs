@@ -55,7 +55,7 @@ ingress:
     hosts:
         - host: ""
           paths:
-              - path: /test-sharing-vision-nextjs(/|$)(.*)
+              - path: /portofolio/show/test-sharing-vision-nextjs(/|$)(.*)
                 pathType: ImplementationSpecific
     tls: []
 
