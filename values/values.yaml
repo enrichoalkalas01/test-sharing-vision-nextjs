@@ -99,16 +99,18 @@ autoscaling:
     targetMemoryUtilizationPercentage: 80
 
 # Environment Variables
-env: []
-# env:
-#     - name: ENVIRONMENT
-#       value: "production"
-#     - name: APP_NAME
-#       value: sharing-vision-golang
-#     - name: APP_ENV
-#       value: development
-#     - name: APP_VERSION
-#       value: "1.0.0"
+# env: []
+env:
+    - name: ENVIRONMENT
+      value: "production"
+    - name: APP_NAME
+      value: sharing-vision-next-js
+    - name: APP_ENV
+      value: development
+    - name: APP_VERSION
+      value: "1.0.0"
+    - name: NEXT_PUBLIC_API_BASE_URL
+      value: /api-server/test-sharing-vision-golang/api/v1
 
 # Environment from ConfigMap/Secret
 envFrom: []
